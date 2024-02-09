@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 225px;
+            width: 10%;
+            background-color: black;
+            color: yellow;
+            border-radius: 10px;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            margin-left: 40%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-left: 5%;
+            align-items: center
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,800&family=Protest+Riot&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="align-items: center;">
+    <div class="container">
+    <h1>Verify OTP</h1><br>
+    <form action="/verify-otp" method="post">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Enter OTP Which is sent on Your Mail" name="otp" placeholder="Enter OTP">
+          </div><br>
+        <input type="hidden" name="datetime" value="" />
+        <!-- <div><img src="/a.gif" /></div>
+        <input type="text" name="captcha" placeholder="Enter Captcha" /> -->
+            &nbsp;
+            &nbsp;
+            
+        <button type="submit" class="btn btn-warning" value="submit" name="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>captcha1</title>
+    <style>
+        .container{
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            height: 40%;
+            width: 50%;
+            margin-top: 5%;
+            margin-left: 22%;
+            border-radius: 10px;
+            padding-bottom: 3%;
+            padding-top: 1%;
+
+        }
+        
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,800&family=Protest+Riot&display=swap');
+    
+    
+
+    </style>
+    
+</head>
+<body style="background-color: aqua; font-family: 'Poppins', sans-serif;
+font-family: 'Protest Riot', sans-serif;">
+    <div class="container">
+    <h1 style="color: yellow;">Register Here</h1><hr><br>
+    <form action="/register-captcha" method="post">
+        Enter Your Name : <input type="text" name="fname" placeholder="Enter First Name" /><br /><br>
+        Enter Your Last Name : <input type="text" name="lname" placeholder="Enter Last Name" /><br /><br>
+        Date Of Birth : <input type="date" name="dob" placeholder="Enter Date of Birth" /><br /><br>
+        City : <input type="text" name="city" placeholder="Enter City" /><br /><br>
+        Enter Your Phone Number : <input type="text" name="phone" placeholder="Enter Phone Number" /><br /><br>
+        Email : <input type="text" name="mail" placeholder="Enter Email" /><br /><br>
+        Create Password : <input type="password" name="password" placeholder="Enter Password" /><br /><br>
+        <img src="/a.gif" /><br /><br>
+        Captcha : <input type="text" name="cap" placeholder="Enter Captcha" /><br /><br>
+        <input class="btn" type="submit" value="submit" name="submit" />
+        
+    </form>
+    
+    </div>
+
+</body>
+</html>

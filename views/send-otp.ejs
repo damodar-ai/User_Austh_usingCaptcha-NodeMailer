@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>captcha1</title>
+    
+</head>
+<body style="text-align: center; background-color: aqua;">
+    <div class="container">
+    
+    <form action="/register-captcha" method="post">
+        <input type="text" name="fname" placeholder="Enter First Name" /><br />
+        <input type="text" name="lname" placeholder="Enter Last Name" /><br />
+        <input type="date" name="dob" placeholder="Enter Date of Birth" /><br />
+        <input type="text" name="city" placeholder="Enter City" /><br />
+        <input type="text" name="phone" placeholder="Enter Phone Number" /><br />
+        <input type="text" name="mail" placeholder="Enter Email" /><br />
+        <input type="password" name="password" placeholder="Enter Password" /><br />
+        <img src="/a.gif" /><br />
+        <input type="text" name="cap" placeholder="Enter Captcha" /><br />
+        <a href="/send-otp"><input class="btn" type="submit" value="submit" name="submit" /></a>
+    </form>
+    </div>
+
+</body>
+</html>
